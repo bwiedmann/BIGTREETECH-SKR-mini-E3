@@ -25,3 +25,4 @@ Disclaimer! Marlin firmware needs to be configured aND CUSTOMIZED by the custome
  ## History
  
  - 18-21th of May - Added BTT SKR Mini E3 v2.0 motherboard firmware and related open source materials.
+ - 17.03.2021 - Added Configs for Ender 3 Pro with SKR 1.2 / 2.0 Mainboards with BLTouch and MicroSwiss direct drive extruder. 
