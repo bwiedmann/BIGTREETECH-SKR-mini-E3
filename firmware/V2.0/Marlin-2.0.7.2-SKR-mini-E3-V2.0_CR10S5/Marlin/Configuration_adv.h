@@ -578,6 +578,7 @@
 //
 // For Z set the number of stepper drivers
 //
+// needs to be kept on 1 on the SKR E3 2.0 board, since there is only one TMC2209 stepper driver for Z1 and Z2 that is used together
 #define NUM_Z_STEPPER_DRIVERS 1   // (1-4) Z options change based on how many
 
 #if NUM_Z_STEPPER_DRIVERS > 1
@@ -2303,8 +2304,10 @@
     #define Y2_CHAIN_POS     -1
   #endif
 
+  // board uses the same internal lanes for Z and Z2, so slightly raising the current should help
+
   #if AXIS_IS_TMC(Z)
-    #define Z_CURRENT       580
+    #define Z_CURRENT       800
     #define Z_CURRENT_HOME  Z_CURRENT
     #define Z_MICROSTEPS     16
     #define Z_RSENSE          0.11
