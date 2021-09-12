@@ -46,7 +46,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-#define MACHINE_NAME "E3DP SKR 2.0"
+#define MACHINE_NAME "CR10S5 SKR 2.0"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
